@@ -1,0 +1,117 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;  
+    font-weight: bold
+    
+}
+.hero {
+    width: 720px;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/The_incredible_rock._Zuma_Rock_%28cropped%29.jpg);
+    background-size: cover;
+}
+.container {
+    width: 720px;
+    text-align: center;
+    background-image: linear-gradient(#4a4e69, #f2e9e4)
+}
+#hero-torshov {
+    margin-top:122px;
+    width: 225px;
+    font-size: 30px;
+    padding: 5px 20px ;
+    border-radius: 10px;
+    background: #1d3557;
+    color: white;
+    text-shadow: 0px 0px #f2e9e4;
+}
+#hero-torshov:hover {
+    background: #022b3a;
+}
+#hero-sen:hover {
+    background:#022b3a;
+} 
+#hero-sen {
+    margin-top: -12px;
+    width: 500px;
+    padding: 5px 20px; 
+    background: #457b9d;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0px 0px #f2e9e4;
+}
+
+.activities-section {
+    width: 720px;
+    height: 343px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+#top-act{
+    margin-top: 0px;
+    padding: 10px;
+}
+#top-act:hover {
+    color: #eed7c5;
+}
+.act-head{
+    width: 162px;
+    justify-content: center;
+    margin: 20px 40px; 
+}
+.act-head:hover {
+    color: #eed7c5
+}
+.act-paragraph{
+    width: 198px;
+    justify-content: center;
+    margin: 20px
+}
+.card-container{
+    display: flex;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    justify-content: space-around;
+    
+
+}
+#para-sen {
+    margin: 5px 40px;
+}
+
+.img-act{
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.guide-text:hover  {
+    color: #073b4c;
+}
+#img-guide {
+    width: 150px;
+    border-radius: 30px;
+    margin-bottom: 10px; 
+}
+
+img {
+    width: 100px;
+    background-size: cover;
+}
